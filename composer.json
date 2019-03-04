@@ -1,5 +1,5 @@
 {
-    "name": "oziks/restconnection",
+    "name": "m6web/restconnection",
     "type": "library",
     "description": "PHP class used to make requests to REST APIs easily.",
     "autoload": {
@@ -7,5 +7,8 @@
             "RESTConnection": "src"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "replace": {
+        "oziks/restconnection": "self.version"
+    }
 }
