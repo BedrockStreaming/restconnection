@@ -1,13 +1,6 @@
 This repo is published "as is" from the `1.0.0` tarball of the deleted original at https://github.com/oziks/RESTConnection
 
-Add this repo to your `composer.json` and update your lockfile `composer update --lock`:
-```json
-{
-    "repositories": [
-        { "type": "vcs", "url": "https://github.com/M6Web/restconnection.git"},
-    ]
-}
-```
+You can use this package by requiring `m6web/restconnection`, any of your dependencies should then use it as we're replacing the original.
 
 **Original README content below**
 
